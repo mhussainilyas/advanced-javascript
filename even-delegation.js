@@ -1,3 +1,8 @@
+// =====================
+//   Event Delegation
+// =====================
+// Event delegation is a technique in JavaScript that allows you to handle events at a higher level in the DOM hierarchy rather than attaching event listeners to individual elements. This approach takes advantage of event bubbling, where events propagate up from the originating target element to its ancestor elements.
+
 let parent = document.querySelector(".options");
 let result = document.querySelector(".result");
 
